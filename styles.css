@@ -11,6 +11,7 @@ body {
     background: #1f2937;
     color: #f9faf8;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 
 .header-logo-container {
@@ -19,6 +20,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     margin-left: 180px;
+    
 }
 
 #header-logo {
@@ -29,6 +31,8 @@ body {
 .right-side {
     display: flex;
     flex-direction: column;
+    flex: auto;
+    
 }
 
 .right-links {
@@ -162,6 +166,7 @@ a {
 
 .quote#quote-text {
     flex: auto;
+    margin-bottom: 0px;
 }
 
 #quote-author {
@@ -171,10 +176,11 @@ a {
     align-items: flex-start;
 }
 
-p#quote-author {
+#quote-author>p {
     display: flex;
+    justify-content: flex-start;
+    margin-top: 0;
 }
-
 .call-to-action {
     display: flex;
     justify-content: space-around;
@@ -191,7 +197,7 @@ p#quote-author {
 
 .cta-statement {
     margin-left: 10px;
-    justify-content: space-around;
+    justify-content: center;
     display:flex;
     flex-direction: column;
     color:#e5e7eb
@@ -200,11 +206,12 @@ p#quote-author {
 #statement-header {
     font-size: 24px;
     font-weight: 900; 
+    margin-bottom: 0px;
 }
 
 #statement-content {
     font-size: 18px;
-
+    margin-top: 0px;
 }
 
 .cta-button-container {
