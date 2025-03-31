@@ -17,12 +17,18 @@ body {
     display: flex;
     flex:auto;
     justify-content: space-around;
-    
+    flex-direction: column;
+    margin-left: 180px;
 }
 
 #header-logo {
     font-size: 24px; 
     font-weight: 900;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
 }
 
 .right-links {
@@ -45,21 +51,52 @@ a {
     color: #f9faf8;
     display: flex;
     background: #1f2937;
+    padding-bottom: 120px;
 
 }
 
 #awesome-text {
     font-size: 48px;
-    weight: 900;
+    font-weight: 900;
+    margin-bottom: 0px;
 }
 
 #awesome-text-part-two {
     align-items: flex-start;
+    margin-top: 0px;
+    font-weight:100;
+    color: #e5e5e5
 }
 
 .awesome-website.first-left-half {
     flex: 1;
     flex-direction: column;
+
+}
+
+.first-right-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    height: 180px;
+    width: 380px;
+}
+
+.awesome-web-sign-up {
+    background:#3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+
 
 }
 .first-half-right {
@@ -76,19 +113,35 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+
+}
+
+#information-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.content-square-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
 }
 
 .content-square-container {
-    display: flex;
-    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content-square {
-    flex: auto;
-    size: 50px;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
     border: solid;
     border-width: 3px;
     color: #3882f6;
+    
 
 }
 
@@ -101,8 +154,77 @@ a {
     display: flex
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.quote#quote-text {
+    flex: auto;
+}
+
 #quote-author {
-    align-items: flex-end;
-    text-align:right;
+    display: flex;
+    margin-top: 0px;
     justify-content: flex-end;
+    align-items: flex-start;
+}
+
+p#quote-author {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.cta-main-container {
+    margin: 80px;
+    justify-content: space-around;
+    background: #3882f6;
+    display: flex;
+    border-radius: 15px;
+}
+
+.cta-statement {
+    margin-left: 10px;
+    justify-content: space-around;
+    display:flex;
+    flex-direction: column;
+    color:#e5e7eb
+}
+
+#statement-header {
+    font-size: 24px;
+    font-weight: 900; 
+}
+
+#statement-content {
+    font-size: 18px;
+
+}
+
+.cta-button-container {
+    margin: 40px;
+    padding: 60px;
+    flex: auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.cta-button {
+    background: #3882f6;
+    color:#f9faf8;
+    border: solid;
+    border-color: #f9faf8;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    background:#1f2937;
+    color:#e5e7eb
 }
